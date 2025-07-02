@@ -1,0 +1,9 @@
+{% extends 'layout.html' %}
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<div class="text-center">
+    <h2 class="mb-4">Welcome {{ session.user.name }}!</h2>
+    <p class="lead">You are now logged into your dashboard.</p>
+</div>
+{% endblock %}
